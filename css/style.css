@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{ 
+    height: 200px;
+    width: 100%;
+
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+
+.img__logo{
+    margin: 20px;
+    width: 200px;
+    height: 72px;
+    background: url(logo (1).png);
+    border-right: 2px solid rgb(218, 218, 218);
+}
+
+.lang{
+    margin: 20px;
+    display: flex;
+    height: 70px;
+    width:80px;
+    flex-direction: column;
+    border-right: 2px solid rgb(218, 218, 218) ;
+}
+
+.ua{
+    margin: 10px;
+    width: 22px;
+    height: 21px;
+    border: none;
+    background: #fff;
+}
+.ru{
+    font-weight: 900;
+    margin: 10px;
+    width: 24px;
+    height: 21px;
+    border: none;
+    background: lightgreen;
+}
+
+.valut{
+    margin: 20px;
+    width: 200px;
+    height: 72px;
+    border-right: 2px solid rgb(218, 218, 218);
+
+}
+
+.usd{
+    margin: 10px;
+    width: 75px;
+    height: 19px;
+    background: none;
+    border: none;
+
+}
+
+.eur{
+    margin-left: 10px;
+    width: 74px;
+    height: 19px;
+    background: none;
+    border: none;
+}
+
+.icons_social{
+    border-right: 2px solid rgb(218, 218, 218);
+    width: 180px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+
+
+}
+
+.icon__facebook{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.icon__insta{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.icon__youtube{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 280px;
+    height: 72px;
+    border-right: 2px solid rgb(218, 218, 218);
+}
+
+.nums{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.teleph1{
+    width: 128px;   
+    height: 21px;
+}
+
+.num1{
+    background: none;
+    border: none;
+}
+
+.num2{
+    background: none;
+    border: none;
+}
+.teleph2{
+    width: 120px;
+    height: 21px;
+
+}
+
+.smartphone1{
+    width: 39px;
+    height: 39px;
+    margin: 8px;
+
+}
+
+.forms{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+
+.manstra{
+    height: 70px;
+}
+
+.manstra__form{
+    margin: 40px 20px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+}
+
+.frame__form{
+    margin:40px 20px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+}
+
+.book1{
+    background: red;
+    width: 50px;
+}
+
+.frame18{
+    background: green;
+}
